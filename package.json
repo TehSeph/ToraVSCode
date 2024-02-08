@@ -1,0 +1,40 @@
+{
+	"name": "theme-toravscode",
+	"displayName": "Tora's VSCode Theme",
+	"description": "🐯 A dark theme for VSCode",
+	"version": "0.0.1",
+	"author": "Toranaado",
+	"license": "AGPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TehSeph/ToraVSCode.git"
+	},
+	"preview": true,
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#0099FF",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.86.0"
+	},
+	"categories": [
+		"Themes",
+		"Programming Languages",
+		"Other"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ToraVSCode",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ToraVSCode-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^2.23.0",
+		"generator-code": "^1.8.3",
+		"yo": "^5.0.0"
+	}
+}
