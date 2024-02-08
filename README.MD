@@ -1,28 +1,39 @@
-# Welcome to your VS Code Extension
+![ToraVSCode](samples/code.png)
 
-## What's in the folder
+# Installation
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/ToraVSCode-color-theme.json` - the color theme definition file.
+1. Open the _**Extensions**_ sidebar in VS Code. `View → Extensions`
+2. Search for `Tora VSCode` and install _**Tora's VSCode Theme** by **Toranaado**_
+3. `File → Preferences → Color Theme` and select _**ToraVSCode**_
 
-## Get up and running straight away
+> This theme hasn't been published yet. For now, download a copy of this repo and place the folder in `C:\Users\USERNAME\.vscode\extensions\` then restart VSCode and follow step 3 above.
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `File > Preferences > Color Themes` and pick your color theme.
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+# Customization
 
-## Make changes
+To override anything in this theme that you don't like, follow the guide in the VSCode [Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+# Color Palette
+| Color                                              | Hex       | Scope                         |
+| -------------------------------------------------- | --------- | ----------------------------- |
+| ![#0D0D0D](https://place-hold.it/32/0D0D0D/0D0D0D) | `#0D0D0D` | Background                    |
+| ![#808080](https://place-hold.it/32/808080/808080) | `#808080` | Foreground                    |
+| ![#545454](https://place-hold.it/32/545454/545454) | `#545454` | Comments                      |
+| ![#CCCCCC](https://place-hold.it/32/CCCCCC/CCCCCC) | `#CCCCCC` | Variables & Fields            |
+| ![#FFFFFF](https://place-hold.it/32/FFFFFF/FFFFFF) | `#FFFFFF` | Punctuation & Parameters      |
+| ![#A27ED3](https://place-hold.it/32/A27ED3/A27ED3) | `#A27ED3` | Constants & Object Properties |
+| ![#1A94FF](https://place-hold.it/32/1A94FF/1A94FF) | `#1A94FF` | Keywords & Operators          |
+| ![#8AC926](https://place-hold.it/32/8AC926/8AC926) | `#8AC926` | Entity Types & Support Types  |
+| ![#FFCF4E](https://place-hold.it/32/FFCF4E/FFCF4E) | `#FFCF4E` | Strings & Functions           |
+| ![#FF924C](https://place-hold.it/32/FF924C/FF924C) | `#FF924C` | Local Variables               |
+| ![#FF3A40](https://place-hold.it/32/FF3A40/FF3A40) | `#FF3A40` | Invalid/Misc.                 |
 
-## Adopt your theme to Visual Studio Code
+# Rainbow Indent Guides
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+![RainbowGuides](samples/guides.png)
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+# Support for [Rainbow CSV](https://github.com/mechatroner/vscode_rainbow_csv)
 
-## Install your extension
+![RainbowCSV](samples/csv.png)
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+---
+###### Theme released under the [AGPL-3.0 license](https://github.com/TehSeph/ToraVSCode/blob/main/LICENSE.MD) &mdash; Color Palette in this README uses [place-hold.it](https://place-hold.it/)
