@@ -2,11 +2,11 @@
 
 # Installation
 
-1. Open the _**Extensions**_ sidebar in VS Code. `View → Extensions`
-2. Search for `Tora VSCode` and install _**Tora's VSCode Theme** by **Toranaado**_
-3. `File → Preferences → Color Theme` and select _**ToraVSCode**_
+> This theme hasn't been published yet. For now, download a copy of this repo and place the folder in `C:\Users\USERNAME\.vscode\extensions\` then restart VSCode and follow step 3 below.
 
-> This theme hasn't been published yet. For now, download a copy of this repo and place the folder in `C:\Users\USERNAME\.vscode\extensions\` then restart VSCode and follow step 3 above.
+1. ~~Open the _**Extensions**_ sidebar in VS Code. `View → Extensions`~~
+2. ~~Search for `Tora VSCode` and install _**Tora's VSCode Theme** by **Toranaado**_~~
+3. `File → Preferences → Color Theme` and select _**ToraVSCode**_
 
 # Customization
 
